@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 35px 171px;
+   
+}
+
+.hero-wrapper{
+     background-image: url(image.png);
+     height: 100vh;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    padding: 53px;
+    font-weight: bold;
+}
+
+.logo-image{
+    width: 170px;
+    height: 30px;
+}
+
+.banner-title div h1{
+     font-size: 120px;
+     color: white;
+}
+
+.banner-title{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.image-row{
+    display: flex;
+    flex-direction: row;
+    gap:10%
+}
+.banner-image{
+    width: 150px;
+    height: 150px;
+}
